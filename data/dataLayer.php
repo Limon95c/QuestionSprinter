@@ -2,14 +2,14 @@
 	
 	# Function to initialize database connection
 	function databaseConnection() {
-		# Save configuration in local variables
-		$servername = "localhost";
-		$username = "root";
-		$password = "root";
-		$dbname = "questionsprinter";
+		$url = parse_url(getenv("CLEARDB_DATABASE_URL"));
 
-		# Obtain connection reference or null (if it failed)
-		$conn = new mysqli($servername, $username, $password, $dbname);
+		$server = $url["host"];
+		$username = $url["user"];
+		$password = $url["pass"];
+		$db = substr($url["path"], 1);
+
+		$conn = new mysqli($server, $username, $password, $db);
 
 		# Return $conn
 		if ($conn -> connect_error)
