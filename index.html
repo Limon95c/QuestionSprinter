@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+        <title>Question Sprinter | Sprint through your learning</title>
+        <link rel="stylesheet" href="css/foundation.min.css">
+        <link rel="stylesheet" href="css/app.css">
+        <link rel="stylesheet" href="css/index.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+    <body>
+
+        <header id="header" class="topbar-sticky-shrink-header">
+            <h2>Ingresa el código de tu examen para empezar!</h2>
+            <div class="row align-center">
+                <input type="text" name="examCode" placeholder="Código del examen">
+                <input type="submit" class="button secondary" name="submitCode" value="Empezar">
+            </div>
+        </header>
+
+        <div data-sticky-container>
+            <div data-sticky data-margin-top='0' data-top-anchor="header:bottom" data-btm-anchor="content:bottom">
+                <div class="top-bar topbar-sticky-shrink">
+
+                    <div class="top-bar-title">
+                        <img src="images/Logo.png" alt="" />
+                        Question Sprinter
+                    </div>
+                    <div class="top-bar-right">
+                        <ul class="menu" data-magellan data-offset="85">
+                            <li><a href="#About">Contexto</a></li>
+                            <li><a href="#SignUp">Registro</a></li>
+                            <li><input id="username" type="text" name="username" placeholder="Clave de maestro"></li>
+                            <li><input id="password" type="password" name="password" placeholder="Contraseña"></li>
+                            <li><input id="signIn_button" class="button secondary" type="submit" name="login" value="Iniciar sesión"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="content">
+
+            <section id="About" class="row align-justify align-middle" data-magellan-target="About">
+                <div class="columns small-7">
+                    <h1>Contexto</h1>
+
+                    <p>
+                        Esta aplicación web llamada Question Sprinter tiene como propósito brindar a los alumnos y maestros, sin distinción de área académica, una herramienta que les permita reforzar los conocimientos que se cubren en clase. La herramienta le brinda al maestro una manera sencilla de crear exámenes y compartir estas prácticas con sus alumnos. Asimismo, el alumno puede diseñar sus propios exámenes, con preguntas relacionadas a sus áreas de oportunidad (previamente identificadas), y compartir estos ejercicios con compañeros en su misma situación.
+                    </p>
+                    <p>
+                        Los beneficios de esta plataforma, en comparación con aplicaciones similares, es la simplicidad de ingresar un código y comenzar el examen. La plataforma brinda al usuario una interfaz minimalista y concisa con todo lo que el alumno puede requerir en su examen.
+                    </p>
+                </div>
+                <div class="fotoAbout columns small-4 align-self-strech">
+                </div>
+            </section>
+
+            <hr>
+
+            <section id="SignUp" class="row align-center align-middle" data-magellan-target="SignUp">
+                
+                <div class="form-icons">
+                    <h2>Registro</h2>
+
+                    <div class="input-group">
+                        <span class="input-group-label">
+                            <i class="fa material-icons"aria-hidden="true">account_circle</i>
+                        </span>
+                        <input id="newUser" class="registerElement input-group-field" type="text" placeholder="Nombre de usuario">
+                    </div>
+
+                    <div class="input-group">
+                        <span class="input-group-label">
+                            <i class="fa material-icons"aria-hidden="true">vpn_key</i>
+                        </span>
+                        <input id="newPass" class="registerElement input-group-field" type="password" placeholder="Contraseña">
+                    </div>
+
+                    <div class="input-group">
+                        <span class="input-group-label">
+                            <i class="fa material-icons"aria-hidden="true">vpn_key</i>
+                        </span>
+                        <input id="confirmPass" class="registerElement input-group-field" type="password" placeholder="Confirma tu contraseña">
+                    </div>
+
+                    <button id="register_button" class="button expanded">Registro</button>
+                </div>
+
+            </section>
+
+        </div>
+
+        <script src="js/vendor/jquery.js"></script>
+        <script src="js/vendor/what-input.js"></script>
+        <script src="js/vendor/foundation.js"></script>
+        <script src="js/app.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+    
+</html>

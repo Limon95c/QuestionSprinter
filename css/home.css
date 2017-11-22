@@ -1,0 +1,242 @@
+body, h1, h2, h3, h4 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+body, #content {
+	background-color: #fafafa;
+}
+
+.topbar-sticky-shrink {
+	padding: 0.75rem 1.5rem;
+	transition: padding 0.25s ease;
+	background: #5D4037;
+}
+
+.topbar-sticky-shrink .menu {
+	background: #5D4037;
+}
+
+.top-bar-right .menu li a {
+	color: #ffffff;
+}
+
+.is-stuck .topbar-sticky-shrink {
+	padding: 0.5rem 1rem;
+	transition: padding 0.25s ease;
+}
+
+[data-sticky] {
+	width: 100%;
+}
+
+.topbar-sticky-shrink-header {
+	padding: 19.1rem 0;
+	background: url("../images/front_banner.jpg") center center no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #5D4037;
+	background-blend-mode: hard-light;
+}
+
+div.top-bar-title img {
+	max-height: 60px;
+}
+
+div.top-bar-title {
+	color: #FFFFFF;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+header h2 {
+	color: #FFFFFF;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+
+ul#mainMenu li:hover, ul#mainMenu li.selected{
+	color: #ffec4e;
+	cursor: pointer;
+}
+
+#logout_button:hover, #logout_button li.selected{
+	color: #ffec4e;
+	cursor: pointer;
+}
+
+.input-group-rounded .input-group-field {
+  border-radius: 5000px 0 0 5000px;
+}
+
+.input-group-rounded .input-group-button .button {
+  border-radius: 0 5000px 5000px 0;
+  font-size: 0.8rem;
+}
+
+.sortDiv {
+	text-align: center;
+}
+
+.input-group {
+	margin-bottom: 0;
+}
+
+.row {
+	max-width: 90%;
+}
+
+#Exams {
+	margin-top: 12px;
+}
+
+#content {
+	margin: 0;
+	padding: 0;
+}
+
+.callout {
+	border-radius: 15px;
+	box-shadow: 1px 1px 3px #000000;
+}
+
+fieldset {
+	margin-left: 12px;
+	border-radius: 15px;
+	text-align: center;
+	background-color: #FFFFFF;
+	box-shadow: 1px 1px 3px #000000;
+}
+
+div.questionItem {
+	margin: 12px;
+	background-color: #fafafa;
+	border-radius: 15px;
+	padding: 12px;
+	box-shadow: 1px 1px 3px #000000;
+}
+
+div.newQuestion i {
+	color: #FFFFFF;
+}
+
+input[name="newRight"], input[name="newWrong1"], input[name="newWrong2"] {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+input[name="newWrong3"] {
+	margin-top: 0;
+}
+
+input[name="newQ"], input[name="addQuestion"] {
+	margin-bottom: 0;
+
+}
+
+div.newQuestion {
+	margin: 12px;
+	padding: 15px;
+	border-radius: 15px;
+	box-shadow: 1px 1px 3px #000000;
+	background-color: #795548;
+}
+
+div.newTest {
+	margin: 12px 24px;
+	padding: 12px;
+	border-radius: 15px;
+	box-shadow: 1px 1px 3px #000000;
+	background-color: #795548;
+	color: #FFFFFF;
+}
+
+div.examItem {
+	margin: 12px 24px;
+	background-color: #D7CCC8;
+	border-radius: 15px;
+	padding: 12px;
+	box-shadow: 1px 1px 3px #000000;
+}
+
+h1 {
+	text-align: center;
+}
+
+i.profileIcon {
+	font-size: 72px;
+	color: #D7CCC8;
+}
+
+#id {
+	text-align: center;
+}
+
+i.inlineIcon {
+	font-size: 100px;
+}
+
+fieldset > p {
+	font-size: 30px;
+}
+
+i.labelIcon {
+	font-size: 52px;
+}
+
+#profileInfo {
+	text-align: left;
+}
+
+.profile i{
+	vertical-align: middle;
+}
+
+.profile {
+	margin: 12px;
+}
+
+.zeroMargin {
+	margin: 0;
+}
+
+.zeroMarginPadding {
+	margin: 0;
+	padding: 0;
+}
+
+.offset-top-mini {
+	margin-top: 12px;
+}
+
+.offset-right-mini {
+	margin-right: 12px;
+}
+
+.offset-left-mini {
+	margin-left: 12px;
+}
+
+.offset-bottom-mini {
+	margin-bottom: 12px;
+}
+
+#mainMenu a {
+	font-size: 20px;
+}
+
+.icon {
+	cursor: pointer;
+}
+
+.noContent {
+	font-size: 18px;
+	padding: 50px;
+	text-align: center;
+}
+
+i.largeSize {
+	font-size: 32px;
+}
